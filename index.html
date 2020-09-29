@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<title>Code Review 03</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+
+
+<body>
+
+	<!--- Header -->
+	<div class="img_header">
+		<img src="img/logo-inv.png" alt="logo_codefactory">
+		<img src="img/banner.png" alt="banner_codefactory">
+	</div>
+	
+
+	<!--- Navigation -->
+	<nav class="nav_top">
+			<a class="nav_text" href="home.html">Home</a>	
+			<a class="nav_text" href="team.html">Team</a>	
+	</nav>
+
+	<!--- Car insurance calculation -->
+
+	<div class="car_insurance1"></div>
+		<div class ="traffic_div">
+
+
+		<p class="car_insurance_text">Car Insurance</p>
+
+		<!--- Input and calculation -->
+		<div class="calculation">
+			<p class="calculation_text">Great coverage begins with the custom quote</p>
+
+			<form class="form">
+			 	<label  class="input--head" for="name">Name:</label>
+			 	<input type="text" id="name" name="name"><br>
+			 	<label class="input--head" for="age">Age:</label><br>
+			 	<input type="number" id="age" name="age"> 
+			 	<label class="input--head" for="horsepower">Horsepower of your car:</label><br>
+			 	<input type="number" id="horsepower" name="horsepower">
+
+				<label class="input--head" for="country">country:</label>
+				<select name="country" id="country">
+			  		<option value="austria">Austria</option>
+			  		<option value="hungary">Hungary</option>
+			  		<option value="greece">Greece</option>
+				</select>
+			</form>
+
+			<button id="calculate">Calculate</button>
+			<div id="result"></div>
+
+
+		</div>
+		
+	</div>
+	<!--- Car insurance text -->
+
+	<div class="itext">
+			<h3>un-complicated car coverage</h3> 
+			understanding your coverage options should not be so hard <br>
+			we will guid you through different coverage types <br>
+			starting with who and what is covered
+		</div>
+
+
+
+			
+	<!--- Angebot -->
+	<div class="offer">
+		<!--- Angebot 1 -->
+		<div class="offer--card">
+			<h3 class="offer_text1">What comes standard</h3>
+			<h5 class="offer_text2">The coverage you need</h5>
+		
+				<p><span>✔️</span>Bodily Injury Liability</p>
+				<p><span>✔️</span>Property Damage</p>
+				<p><span>✔️</span>Medical Payments</p>
+			
+			<h5 class="benefits">Benefits</h5>
+			<p class="benefits_text">12 month rate guarantee - 24/7 customer <br> 
+				service - Lifetime Repair guarantee
+			</p>
+
+		</div>
+
+
+		<!--- Angebot 2 -->
+
+		<div class="offer--card">
+			<h3 class="offer_text1">Add-on protection & coverage</h3>
+			<h5 class="offer_text12">For more peace of mind</h5>
+				
+				<p><span>✔️</span>Better Car Replacement</p>
+				<p><span>✔️</span>Towing & Labor</p>
+				<p><span>✔️</span>Rental Car Coverage</p>
+
+			<h5 class="benefits">Earned benefits</h5>
+			<p class="benefits_text">Accident Forgiveness - New Car<br> 
+				replacement
+			</p>
+
+		</div>
+		
+	</div>
+
+		
+
+
+	<!--- Footer -->
+	<div class="footer">
+		<nav class="footer--nav">
+			<a class="nav__bottom" href="home.html">Home</a>	
+			<a class="nav__bottom" href="team.html">Team</a>	
+		</nav>
+
+		<div class="footer_img">
+			<img src="img/logo-inv.png" alt="logo_codefactory">
+		</div>
+
+		<p class="footer_text">Natalia Volentova- Code Factory 2020</p>
+	</div>
+	
+	
+
+<script  src="interaction.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+body{
+	90%;
+}
+
+.img_header{
+	display: flex;
+	justify-content: space-around;
+	background-color: #FFF3F3; 
+	padding: 3%;
+}
+
+.nav_top{
+	background-color: #8E1616;
+	padding: 1%;
+}
+
+a.nav_text{
+	text-decoration: none;
+	color: white;
+	padding: 3% 2% 3% 3%;
+}
+
+.traffic_div{
+	background-image: url("img/traffic.jpg");
+	width: 100%;
+	color: white;
+	height: 90vh;
+}
+
+.car_insurance_text{
+	color: white;
+	font-size: 3em;
+	padding: 2%;
+}
+
+
+.calculation{
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 75%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	border-color: black;
+	left: 12%;
+	color: black;
+}
+
+#result{
+	font-size: 1.8em;
+  	color: red;
+  	font-weight: 800;
+ 	height: 50%;
+  	padding: 5%;
+  	min-height: 50px;
+
+} 
+
+.calculation_text{
+	color: black;
+	font-size: 150%;
+}
+
+.form{
+	width: 75%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	display: flex;
+  	justify-content: space-around;
+  	flex-flow: row wrap;
+  	padding: 5%;
+
+}
+
+.input--head{
+	text-align: left;
+  	font-size: 1.2em;
+  	margin-bottom: 0;
+  	font-weight: 600; 
+}
+
+/* ist jetzt name...
+.input--box{ 
+	width: 100%;
+  	font-size: 1.5em;
+}
+*/
+.itext{
+	background-color: #CECECE;
+	text-align: center;
+	align-items: flex-end;
+	color: black;
+	padding: 2%;
+	font-size: 1.5em;
+}
+
+
+.offer{
+	display: flex;
+	justify-content: space-around;
+	margin: 3%;
+}
+
+.offer--card{
+	border-style: solid;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 1%;
+
+}
+
+.footer{
+	background-color: black;
+	color: white;
+}
+
+.footer_text{
+	text-align: center;
+}
+
+.nav__bottom{
+	text-decoration: none;
+	color: white;
+
+}
+
+.footer_img{
+	text-align: right;
+}
+
+@media screen and (max-width: 480px){
+	body
+}
